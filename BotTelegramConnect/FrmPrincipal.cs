@@ -39,7 +39,9 @@ namespace BotTelegramConnect
 
         private void envioDeMensagemComEmogiToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            var frm = new FrmEnvioTextoComEmoji();
+            frm.MdiParent = this;
+            frm.Show();
         }
 
         private void sairToolStripMenuItem_Click(object sender, EventArgs e)

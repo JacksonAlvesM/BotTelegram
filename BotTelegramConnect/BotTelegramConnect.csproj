@@ -69,6 +69,12 @@
     <Compile Include="FrmEnvioTexto.Designer.cs">
       <DependentUpon>FrmEnvioTexto.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmEnvioTextoComEmoji.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEnvioTextoComEmoji.Designer.cs">
+      <DependentUpon>FrmEnvioTextoComEmoji.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -85,6 +91,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmEnvioTexto.resx">
       <DependentUpon>FrmEnvioTexto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEnvioTextoComEmoji.resx">
+      <DependentUpon>FrmEnvioTextoComEmoji.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmPrincipal.resx">
       <DependentUpon>FrmPrincipal.cs</DependentUpon>
