@@ -1,0 +1,16 @@
+C:\Users\jackson\source\repos\BotTelegramConnect\BotTelegramConnect\bin\Debug\BotTelegramConnect.exe.config
+C:\Users\jackson\source\repos\BotTelegramConnect\BotTelegramConnect\bin\Debug\BotTelegramConnect.exe
+C:\Users\jackson\source\repos\BotTelegramConnect\BotTelegramConnect\bin\Debug\BotTelegramConnect.pdb
+C:\Users\jackson\source\repos\BotTelegramConnect\BotTelegramConnect\obj\Debug\BotTelegramConnect.csprojAssemblyReference.cache
+C:\Users\jackson\source\repos\BotTelegramConnect\BotTelegramConnect\obj\Debug\BotTelegramConnect.FrmPrincipal.resources
+C:\Users\jackson\source\repos\BotTelegramConnect\BotTelegramConnect\obj\Debug\BotTelegramConnect.Properties.Resources.resources
+C:\Users\jackson\source\repos\BotTelegramConnect\BotTelegramConnect\obj\Debug\BotTelegramConnect.csproj.GenerateResource.cache
+C:\Users\jackson\source\repos\BotTelegramConnect\BotTelegramConnect\obj\Debug\BotTelegramConnect.csproj.CoreCompileInputs.cache
+C:\Users\jackson\source\repos\BotTelegramConnect\BotTelegramConnect\obj\Debug\BotTelegramConnect.exe
+C:\Users\jackson\source\repos\BotTelegramConnect\BotTelegramConnect\obj\Debug\BotTelegramConnect.pdb
+C:\Users\jackson\source\repos\BotTelegramConnect\BotTelegramConnect\obj\Debug\BotTelegramConnect.FrmEnvioTexto.resources
+C:\Users\jackson\source\repos\BotTelegramConnect\BotTelegramConnect\bin\Debug\Newtonsoft.Json.dll
+C:\Users\jackson\source\repos\BotTelegramConnect\BotTelegramConnect\bin\Debug\Telegram.Bot.dll
+C:\Users\jackson\source\repos\BotTelegramConnect\BotTelegramConnect\bin\Debug\Newtonsoft.Json.xml
+C:\Users\jackson\source\repos\BotTelegramConnect\BotTelegramConnect\bin\Debug\Telegram.Bot.xml
+C:\Users\jackson\source\repos\BotTelegramConnect\BotTelegramConnect\obj\Debug\BotTelegramConnect.csproj.CopyComplete
