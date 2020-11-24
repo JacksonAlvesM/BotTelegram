@@ -13,37 +13,34 @@ using Telegram.Bot.Types.Enums;
 
 namespace BotTelegramConnect
 {
-    public partial class FrmEnvioTexto : Form
+    public partial class FrmEnvioImagemWeb : Form
     {
-        public FrmEnvioTexto()
+        public FrmEnvioImagemWeb()
         {
             InitializeComponent();
-
             ServicePointManager.Expect100Continue = true;
             ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private async void btnEnviar_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private async void btnEnviar_ClickAsync(object sender, EventArgs e)
-        {
-            if (txtMensagem.Text.Trim().Equals(string.Empty))
+            if (txtURLImagem.Text.Trim().Equals(string.Empty))
             {
-                MessageBox.Show("Informe a mensagem para envio!", this.Text, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("Informe a URL da imagem para envio!", this.Text, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 return;
             }
             try
             {
                 var telegramBot = new TelegramBotClient("1432240157:AAE_14LbHxjMqx5S4NrqFfdlL1K8DVCD8H8");
-                await telegramBot.SendTextMessageAsync(chatId: "-1001386936204", text: txtMensagem.Text.Trim(), parseMode: ParseMode.Html);
+                var imagemRequest = WebRequest.Create(txtURLImagem.Text.Trim());
+
+                using (var imagemResponse = imagemRequest.GetResponse())
+                {
+                    var stream = imagemResponse.GetResponseStream();
+                    await telegramBot.SendPhotoAsync(chatId: "-1001386936204", photo: stream, caption: txtMensagem.Text.Trim(), parseMode: ParseMode.Html);
+                }
+
+
                 MessageBox.Show("Mensagem enviada com sucesso!", this.Text, MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (Exception ex)
@@ -54,7 +51,10 @@ namespace BotTelegramConnect
             finally
             {
                 txtMensagem.Text = string.Empty;
+                txtURLImagem.Text = string.Empty;
             }
         }
     }
+
 }
+

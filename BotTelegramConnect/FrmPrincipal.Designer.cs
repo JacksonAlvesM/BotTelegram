@@ -83,7 +83,7 @@ namespace BotTelegramConnect
             this.imagemDaWebToolStripMenuItem,
             this.imagemLocalToolStripMenuItem});
             this.envioDeMensagemComImagemToolStripMenuItem.Name = "envioDeMensagemComImagemToolStripMenuItem";
-            this.envioDeMensagemComImagemToolStripMenuItem.Size = new System.Drawing.Size(255, 22);
+            this.envioDeMensagemComImagemToolStripMenuItem.Size = new System.Drawing.Size(287, 22);
             this.envioDeMensagemComImagemToolStripMenuItem.Text = "Envio de Mensagem com Imagem";
             // 
             // imagemDaWebToolStripMenuItem
@@ -91,6 +91,7 @@ namespace BotTelegramConnect
             this.imagemDaWebToolStripMenuItem.Name = "imagemDaWebToolStripMenuItem";
             this.imagemDaWebToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.imagemDaWebToolStripMenuItem.Text = "Imagem da Web ";
+            this.imagemDaWebToolStripMenuItem.Click += new System.EventHandler(this.imagemDaWebToolStripMenuItem_Click);
             // 
             // imagemLocalToolStripMenuItem
             // 
