@@ -15,3 +15,4 @@ C:\Users\jackson\source\repos\BotTelegramConnect\BotTelegramConnect\bin\Debug\Ne
 C:\Users\jackson\source\repos\BotTelegramConnect\BotTelegramConnect\bin\Debug\Telegram.Bot.xml
 C:\Users\jackson\source\repos\BotTelegramConnect\BotTelegramConnect\obj\Debug\BotTelegramConnect.csproj.CopyComplete
 C:\Users\jackson\source\repos\BotTelegramConnect\BotTelegramConnect\obj\Debug\BotTelegramConnect.FrmEnvioImagemWeb.resources
+C:\Users\jackson\source\repos\BotTelegramConnect\BotTelegramConnect\obj\Debug\BotTelegramConnect.FrmEnvioImagem.resources

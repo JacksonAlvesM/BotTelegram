@@ -98,6 +98,7 @@ namespace BotTelegramConnect
             this.imagemLocalToolStripMenuItem.Name = "imagemLocalToolStripMenuItem";
             this.imagemLocalToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.imagemLocalToolStripMenuItem.Text = "Imagem Local";
+            this.imagemLocalToolStripMenuItem.Click += new System.EventHandler(this.imagemLocalToolStripMenuItem_Click);
             // 
             // envioDeMensagemComEmogiToolStripMenuItem
             // 
