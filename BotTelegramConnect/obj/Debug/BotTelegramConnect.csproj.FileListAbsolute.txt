@@ -35,3 +35,5 @@ C:\Users\jackson\Desktop\BotTelegramConnect\BotTelegramConnect\obj\Debug\BotTele
 C:\Users\jackson\Desktop\BotTelegramConnect\BotTelegramConnect\obj\Debug\BotTelegramConnect.csproj.CopyComplete
 C:\Users\jackson\Desktop\BotTelegramConnect\BotTelegramConnect\obj\Debug\BotTelegramConnect.exe
 C:\Users\jackson\Desktop\BotTelegramConnect\BotTelegramConnect\obj\Debug\BotTelegramConnect.pdb
+C:\Users\jackson\Desktop\BotTelegramConnect\BotTelegramConnect\bin\Debug\Mensagens.txt
+C:\Users\jackson\Desktop\BotTelegramConnect\BotTelegramConnect\obj\Debug\BotTelegramConnect.FrmEnvioComTemporizador.resources

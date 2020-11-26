@@ -51,6 +51,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EmojiConfig.cs" />
+    <Compile Include="FrmEnvioComTemporizador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEnvioComTemporizador.Designer.cs">
+      <DependentUpon>FrmEnvioComTemporizador.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmEnvioImagem.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +90,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmEnvioComTemporizador.resx">
+      <DependentUpon>FrmEnvioComTemporizador.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmEnvioImagem.resx">
       <DependentUpon>FrmEnvioImagem.cs</DependentUpon>
     </EmbeddedResource>
@@ -124,6 +134,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\paper-planes-seamless-pattern-telegram-symbol-paper-planes-seamless-pattern-telegram-background-158925499.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Mensagens.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

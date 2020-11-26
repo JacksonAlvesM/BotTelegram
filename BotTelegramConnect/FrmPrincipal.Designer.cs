@@ -89,14 +89,14 @@ namespace BotTelegramConnect
             // imagemDaWebToolStripMenuItem
             // 
             this.imagemDaWebToolStripMenuItem.Name = "imagemDaWebToolStripMenuItem";
-            this.imagemDaWebToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.imagemDaWebToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
             this.imagemDaWebToolStripMenuItem.Text = "Imagem da Web ";
             this.imagemDaWebToolStripMenuItem.Click += new System.EventHandler(this.imagemDaWebToolStripMenuItem_Click);
             // 
             // imagemLocalToolStripMenuItem
             // 
             this.imagemLocalToolStripMenuItem.Name = "imagemLocalToolStripMenuItem";
-            this.imagemLocalToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.imagemLocalToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
             this.imagemLocalToolStripMenuItem.Text = "Imagem Local";
             this.imagemLocalToolStripMenuItem.Click += new System.EventHandler(this.imagemLocalToolStripMenuItem_Click);
             // 
@@ -112,6 +112,7 @@ namespace BotTelegramConnect
             this.envioDeMernsagemComTemporizadorToolStripMenuItem.Name = "envioDeMernsagemComTemporizadorToolStripMenuItem";
             this.envioDeMernsagemComTemporizadorToolStripMenuItem.Size = new System.Drawing.Size(287, 22);
             this.envioDeMernsagemComTemporizadorToolStripMenuItem.Text = "Envio de Mernsagem com Temporizador";
+            this.envioDeMernsagemComTemporizadorToolStripMenuItem.Click += new System.EventHandler(this.envioDeMernsagemComTemporizadorToolStripMenuItem_Click);
             // 
             // FrmPrincipal
             // 
